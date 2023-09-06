@@ -1,8 +1,3 @@
-Partners: Nandita Balaji and Rishika Vadlamudi
-JHED IDs: nbalaji2 and rvadlam2
-
-We have included files: img_processing.c, img_processing.h, project.c, ppm_io.c, and ppm_io.h.
-
 img_processing.h includes headers for the following functions: grayscale, binarize, crop, transpose, gradient, make_seam, remove_seam, and seam. Make_seam and remove_seam are helper functions for the seam function. Make_seam utilizes the Point struct to store seams into a 2D array and finds the seam with the least gradient energy, then returns the seam with the least gradient energy. Remove_seam copies over every seam except the seam returned from make_seam with the least gradient energy into a new image, and then returns the image.
 
 We did error reported and checking in project.c.
